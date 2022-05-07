@@ -1,3 +1,3 @@
-# 2021 Fall CMPE 281 Project - AVRentals
+# 2022 Spring CMPE 281 Project - AVRentals
 
-This is the project folder for AVRental cloud for San Jose State University, Fall 2021 semester CMPE 281.
+This is the project folder for AVRental cloud for San Jose State University, Spring 2022 semester CMPE 281.
