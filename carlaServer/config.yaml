@@ -1,0 +1,28 @@
+Carla:
+  host: '127.0.0.1'
+  port: 2000
+  width: 720
+  height: 1280
+  filter: 'vehicle.*'
+  gamma: 2.2
+  World: 
+    fixed_delta_seconds: 0.05
+Mongo:
+  username: '' # Mongo DB user name
+  password: '' # Mongo DB user password
+  uri: '' # mongo db usl here, should be something like ***.***.mongodb.net or localhost
+  database: 'carla'
+Locations:
+# Map from real world location to carla spawn points
+  l1: 9  # (-113.4, -25.76)
+  l2: 113 # Location(x=-9.175960, y=140.709900, z=0.600000)
+  l3: 20  # Location(x=48.546078, y=140.975540, z=0.600001)
+  l4: 98  # Location(x=109.502762, y=53.293152, z=0.600000)
+  l5: 63  # Location(x=109.956909, y=-27.333675, z=0.600000)
+  l6: 152 # Location(x=57.568340, y=-67.849854, z=0.600000)
+  l7: 109 # Location(x=-67.045288, y=-68.693169, z=0.600000)
+  l8: 52  # Location(x=-17.105402, y=13.257457, z=0.600000)
+  l9: 55  # Location(x=-3.973868, y=28.104216, z=0.600000)
+  l10: 26 # Location(x=-52.073921, y=63.538094, z=0.600000)
+Node:
+  url: 'http://abc' # Put your node server link here, either on cloud or localhost
